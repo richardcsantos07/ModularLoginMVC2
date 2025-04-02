@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Modular Login MVC"
+rootProject.name = "ModularLoginMVC"
 include(":app")
