@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ModularLoginMVC" >
         <activity
+            android:name="com.example.modularloginmvc.view.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.modularloginmvc.view.CadastroActivity"
             android:exported="false" />
         <activity
