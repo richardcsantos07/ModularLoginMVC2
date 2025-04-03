@@ -3139,7 +3139,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_criar
+id btn_cadastrar
 id btn_entrar
 id buttonPanel
 id cache_measures
@@ -3216,6 +3216,7 @@ id east
 id edge
 id edit_query
 id edt_email
+id edt_nome
 id edt_senha
 id elastic
 id embed
@@ -3654,6 +3655,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cadastro
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

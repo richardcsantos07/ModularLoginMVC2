@@ -4,11 +4,13 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id btn_criar
+id btn_cadastrar
 id btn_entrar
 id edt_email
+id edt_nome
 id edt_senha
 id main
+layout activity_cadastro
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round

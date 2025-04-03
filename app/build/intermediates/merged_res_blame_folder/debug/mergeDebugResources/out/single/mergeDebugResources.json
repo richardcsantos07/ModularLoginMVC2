@@ -32,6 +32,10 @@
         "source": "com.example.modularloginmvc.app-main-33:/layout/activity_main.xml"
     },
     {
+        "merged": "com.example.modularloginmvc.app-debug-31:/layout_activity_cadastro.xml.flat",
+        "source": "com.example.modularloginmvc.app-main-33:/layout/activity_cadastro.xml"
+    },
+    {
         "merged": "com.example.modularloginmvc.app-debug-31:/drawable_ic_launcher_background.xml.flat",
         "source": "com.example.modularloginmvc.app-main-33:/drawable/ic_launcher_background.xml"
     },

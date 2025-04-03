@@ -2,6 +2,7 @@ package com.example.modularloginmvc.datasource;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -43,4 +44,26 @@ AppDataBase extends SQLiteOpenHelper {
 
         return retorno;
     }
+
+    public boolean chkUser(String userName){
+        boolean retorno = false;
+        db = getWritableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM "
+        + UsuarioDataModel.TABELA + " WHERE email = ?",
+                new String[] {userName});
+
+        return cursor.getCount() > 0;
+    }
+
+    public boolean chkUserPassword(String userName, String password){
+        boolean retorno = false;
+        db = getWritableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM "
+                        + UsuarioDataModel.TABELA + " WHERE email = ?"
+                        +" AND senha = ?",
+                new String[] {userName, password});
+
+        return cursor.getCount() > 0;
+    }
+
 }
